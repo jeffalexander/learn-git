@@ -1,5 +1,8 @@
 
-class Hello {
-private String world;
+public class Hello {
+	private String message;
+	
+	public String getMessage() {
+		return message;
+	}
 }
-
